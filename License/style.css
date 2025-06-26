@@ -6,8 +6,6 @@ main{
 .card{
     background-color: lightblue;
     width:60vw;
-
-
 }
 
 .card_name{
@@ -19,23 +17,8 @@ main{
     border-top:2px solid black;
     border-bottom: 2px solid black;
     padding:1em;
-
 }
 
-
-.card_info-details{
-    flex:2;
-    display:grid;
-    grid-template-columns: 1fr 1fr;
-}
-
-
-
-
-.card_info-details > p > span{
-    font-weight: bold;
-    
-}
 .card_info-photo-container{
     flex:1;
     margin-right:1em;
@@ -44,6 +27,18 @@ main{
 .card_info-photo-container > img{
     width:100%;
 }
+
+.card_info-details{
+    flex:2;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.card_info-details > p > span{
+    font-weight: bold;
+    
+}
+
 .card_specs{
     display:flex;
     justify-content: space-between;
